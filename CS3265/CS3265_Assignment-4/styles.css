@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar{
+    background-color: rgb(224, 222, 222);
+    width: 300px;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.sidebar nav{
+    padding: 40px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    background-color: white;
+    width: 80vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color: white;
+    height: 55vh;
+    width: 70vw;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Fira Sans', sans-serif;
+    padding-left: 20px;
+}
+
+.hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.about{
+    font-size: 35px;
+}
+
+.moreabout{
+    margin-top: 23px;
+    font-size: 25px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.buttons{
+    margin-top: 35px;
+}
+
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size:20px;
+    margin: 0px 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    color: dodgerblue;
+    background-color: white;
+
+}
+
+.devpic img{
+    height: 55vh;
+    padding: 0px;
+}
+
+.contactform{
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0px 30px;
+    padding-top: 140px;
+
+}
+.contactform h1{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+.contactform form div{
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color:midnightblue;
+    margin: 0px 5px;
+}
