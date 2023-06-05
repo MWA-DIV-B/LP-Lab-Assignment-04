@@ -1,0 +1,127 @@
+.NavbarItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding: 0 30px;
+  background-color: #8ec5fc;
+  background-image: linear-gradient(90deg, #161d44 0%, #812086 100%);
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  width: 70%;
+  height: 70px;
+  border-radius: 10px;
+  position: fixed;
+  z-index: 99;
+  top: 20px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.logo {
+  color: #fff;
+  justify-self: start;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  height: 100%;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+
+.logo img {
+  height: 50px;
+  width: 150px;
+  margin-top: 17px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 10px;
+  list-style: none;
+  align-items: center;
+  text-align: center;
+  justify-content: end;
+}
+
+.nav-links {
+  text-decoration: none;
+  color: #fff;
+  color: white;
+  padding: 0.7rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-links i {
+  padding-right: 10px;
+}
+.nav-links:hover {
+  background: rgb(17, 21, 31);
+  border-radius: 4px;
+  transition: all 0.2s ease-in-out;
+  color: white;
+}
+
+.fa-bars,
+.fa-times {
+  color: #fff;
+}
+
+.menu-icons {
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .NavbarItems {
+    z-index: 99;
+    width: 80%;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: rgba(209, 242, 238, 0.759);
+    box-shadow: 0 8px 32px O rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -110%;
+    align-items: stretch;
+    padding: 80px 0 30px 0;
+    margin: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out;
+  }
+
+  .nav-menu.active {
+    left: 0%;
+  }
+
+  .nav-links {
+    display: block;
+    widows: 100%;
+    padding: 2rem;
+    color: rgb(5, 19, 26);
+  }
+
+  .nav-links:hover {
+    background: rgb(17, 12, 22);
+    backdrop-filter: blur(20px);
+    color: white;
+  }
+
+  .logo {
+    margin-left: 0px;
+  }
+
+  .menu-icons {
+    display: block;
+  }
+}

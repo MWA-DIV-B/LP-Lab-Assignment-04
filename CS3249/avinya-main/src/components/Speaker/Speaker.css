@@ -1,0 +1,114 @@
+#speaker {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  background-color: #d04176;
+  background-image: linear-gradient(
+    0deg,
+    #9441d0 10%,
+    #be3dba 46%,
+    #551659 100%
+  );
+}
+
+#speaker h1 {
+  font-size: 50px;
+  margin: 30px;
+  font-family: "Merriweather Sans";
+  background: -webkit-linear-gradient(#ffffff, #59e4c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container1 .box {
+  position: relative;
+  width: 20rem;
+  height: 20rem;
+  margin: 4rem;
+}
+
+.container1 .box:hover .imgBox {
+  transform: translate(-3.5rem, -3.5rem);
+}
+
+.container1 .box:hover .content {
+  transform: translate(3.5rem, 3.5rem);
+}
+
+.imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: all 0.5s ease-in-out;
+}
+
+.imgBox img {
+  width: 20rem;
+  height: 20rem;
+  object-fit: cover;
+  resize: both;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  z-index: 1;
+  align-items: flex-end;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+}
+
+.content h2 {
+  display: block;
+  /* margin-top: 80px; */
+  font-size: 1.6rem;
+  color: #111;
+  font-weight: 500;
+  /* line-height: 2rem; */
+  letter-spacing: 1px;
+}
+
+.content span {
+  color: #555;
+  font-size: 1rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+  .content h2 {
+    font-size: 1.3rem;
+  }
+
+  .content span {
+    font-size: 0.7rem;
+  }
+  .container .box:hover .content {
+    transform: translate(0, 3.5rem);
+  }
+  .container1 .box:hover .imgBox {
+    transform: translate(0, -3.5rem);
+  }
+}

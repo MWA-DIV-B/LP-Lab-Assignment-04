@@ -1,0 +1,94 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1600px;
+  width: 100%;
+  background-color: #000000ae;
+  display: flex;
+  margin-top: 1150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  width: clamp(50%, 700px, 90%);
+  height: min(50%, auto);
+
+  /* margin-top: 100px; */
+  margin: 13px;
+  padding: 0 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 95;
+}
+
+.day {
+  color: rgb(44, 11, 71);
+  font-family: "Fredoka One";
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.round {
+  color: rgb(15, 45, 65);
+  font-size: 20px;
+  font-weight: 800px;
+}
+
+.round-rules {
+  color: rgb(59, 14, 14);
+  font-size: 18px;
+  font-weight: 800px;
+}
+
+.orange-gradient {
+  background: rgb(56, 79, 8);
+  background: linear-gradient(
+    174deg,
+    rgba(56, 79, 8, 1) 0%,
+    rgba(223, 184, 52, 1) 10%,
+    rgba(255, 184, 0, 1) 83%
+  );
+}
+
+.btn-grad1 {
+  background-image: linear-gradient(
+    to right,
+    #16222a 0%,
+    #3a6073 51%,
+    #16222a 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #000000;
+  border-radius: 10px;
+  display: block;
+  border: transparent;
+  cursor: pointer;
+}
+
+.btn-grad1:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 850px) {
+  .backdrop {
+    margin-top: 2200px;
+    height: 1800px;
+    z-index: 95;
+  }
+  /* .modal {
+    margin-left: 10px;
+    margin-: 10px;
+  } */
+}

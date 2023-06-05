@@ -1,0 +1,14 @@
+.spinner-container {
+  position: relative;
+  height: 100%;
+}
+
+.logo3 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

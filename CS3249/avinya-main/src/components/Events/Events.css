@@ -1,0 +1,98 @@
+.event-main {
+  height: 2150px;
+  margin-top: 0px;
+  background-color: #000000;
+  background-image: linear-gradient(
+    180deg,
+    #000000 0%,
+    #993265 50%,
+    #551659 100%
+  );
+  margin-top: 90px;
+}
+
+.event-title p {
+  font-size: 45px;
+  font-family: "Merriweather Sans";
+  background: -webkit-linear-gradient(#f8f8f8, #10b4c6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  margin: 0px;
+  padding-top: 50px;
+  font-weight: 700;
+}
+
+.event-flex1,
+.event-flex2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.stage1 img,
+.stage2 img,
+.stage3 img,
+.stage4 img {
+  height: 200px;
+  width: 200px;
+}
+
+.modal-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #003973 0%,
+    #e5e5be 51%,
+    #003973 100%
+  );
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #0f0b0b;
+  border-radius: 10px;
+  display: block;
+  border: transparent;
+  cursor: pointer;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 875px) {
+  .event-main {
+    height: auto;
+  }
+
+  .event-flex1,
+  .event-flex2 {
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 80px;
+  }
+  .event-flex2 {
+    margin-top: 0px;
+  }
+
+  .stage1,
+  .stage2,
+  .stage3,
+  .stage4 {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 30px;
+  }
+}
