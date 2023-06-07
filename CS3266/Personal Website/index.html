@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/436b08a6bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div id="header"> 
+    <div class="container">
+       <nav>
+        <img src="images/Ak_logo.png" class="logo" style="height: 150px; width: 150px;">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+       </nav> 
+       <div class="header-text">
+        <p>Data science & ML Enthusiastic</p>
+        <h1>Hi, I'm <span>Akanksha Lugade</span> Student from Jspm's Rscoe.</h1>
+       </div>
+    </div>
+    </div>
+    <!-------------------------------About---------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Akanksha.jpg" alt="" style="height: 400px;width: 350px;">
+                </div>
+                
+                <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hi! this Akanksha. I'm a front-end web Designer/Developer and a Computer Engineer. With proficiency in HTML,CSS and JS. I possess strong passion for programming in Python and C++. As I have passion towards Machine Learning and Data Science I can train the model using ML Algorithms and find insights from the data using Data visualization techniques.</p>
+                 <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('education')">Education</p>
+                 </div>
+                 <div class="tab-contents active-tab" id="skills" >
+                    <ul>
+                        <li><span>ML & DS</span><br>Finding the insights from your data</li>
+                        <li><span>Web Development</span><br>Web Dev. using Html,Css and JS</li>
+                        <li><span>Programming Languages</span><br>C++, Python, Mysql, Html, Css and JS.</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="experience" >
+                    <ul>
+                        <li><span>2023-24</span><br>Vice-President of ACM student chapter.</li>
+                        <li><span>2022-23</span><br>Vice-President of ACM student chapter.</li>
+                        <li><span>2022</span><br>LetsGrowMore Intern.</li>
+                        <li><span>2022-23</span><br>Member of Rotract club.</li>
+                    </ul>
+                 </div>
+
+                 <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021-2024</span><br>BTech from Jspm's Rscoe. cgpa-9.78</li>
+                        <li><span>2019-2021</span><br>Diploma from Pcet's Pcp. %-95.49</li>
+                        <li><span>2017-2019</span><br>Hsc from S.B.Patil college of science and commerce. %-72.62</li>
+                        <li><span>2005-2017</span><br>Ssc from Vnems. %-76.20</li>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <!---------------------------services------------------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Front-end web designer/developer. you can get a fully functional responsive website, using Html, Css, Js and Php. I have created a portfolio website, spotify clone, quizz app, contact forms and many more. </p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Machine Learning</h2>
+                <p>Alogrithms like regression, classification, Decision tree, Random Forest, SVM, Naive Bayes and more such algorithms can be used to train your model and find insights from the data.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Python Projects</h2>
+                <p>I have done some miniprojects which are purely based on python programming language. projects such as Dice_roll, Guess_the_number, Random_Password_generator, Sending_emails, Alarm and Binary_search.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+<!-------------------------portfolio-------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/hand.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Virtual Mouse
+                    </h3>
+                    <p>"Virtual Mouse Using Hand Gestures" Just by using 3 color caps we can perform all the mouse actions like right click,left click,scroll-up,scroll-down and drag-drop.
+                       Purely python based project.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/spotify.png" alt="" height="100%">
+                <div class="layer">
+                    <h3>
+                        Spotify Clone
+                    </h3>
+                    <p>"Spotify Clone" We have tried to make same system like spotify where any song can be played, changed,selected
+                        We created using Html,css and Js.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/teacher.jpg" alt="">
+                <div class="layer">
+                    <h3>
+                        Teacher Facing Dashboard
+                    </h3>
+                    <p>"LTA Based Teacher Facing Dashboard" this is our final year project, where were creating a dashboard which will give key recommendations of students performance using DL.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/AkankshaLugade" class="btn">See more</a>
+    </div>
+</div>
+
+<!-------------------------------Contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>akankshaakanksha2710@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9130970059</p>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/AkankshaLugade"><i class="fa-brands fa-github"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                <a href="images/Ak_resume.pdf" download class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" id="" cols="30" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Akanksha Made with <i class="fa-solid fa-heart"></i> by Akanksha_Lugade </p>
+    </div>
+</div>
+
+
+
+
+
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script> 
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwEzus-ahME51OkswPGFQ3fT3dnQmjFtxw1blYIBkDbjfDtvSn1pVNR8xqEzXn93-NOJw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Sucessfully!!!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
