@@ -1,0 +1,110 @@
+body {
+    width: 99%;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74c0fc
+}
+
+/* .btn {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 40px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #183153
+} */
+
+.row-outer {
+    width: 500px;
+    height: 510px;
+    background-color: #f0cd1c;
+    padding-top: 55px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -30px 30px 20px rgba(0, 0, 0, 0.1);
+}
+
+.row-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.row-inner-text {
+
+    color: #183153;
+    padding-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-family: Poppins;
+    letter-spacing: 1px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.tog {
+    width: 40px;
+    height: 40px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    background-color: #183153;
+    margin: 7px;
+    cursor: pointer;
+}
+
+/* .tog1 {
+    width: 40px;
+    height: 40px;
+    padding: 40px 40px;
+    border-radius: 10px;
+    background-color: #183153;
+    margin: 7px;
+    cursor: pointer;
+}
+
+#tooltipText {
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    background-color: black;
+    color: #fff;
+    white-space: nowrap;
+    padding: 10px 15px;
+    border-radius: 7px;
+    visibility: hidden;
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#tooltipText::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translateX(-50%);
+    border: 15px solid;
+    border-color: #000;
+}
+
+.tog1:hover {
+    top: -130%;
+    visibility: visible;
+    opacity: 1;
+} */
+
+/* .tog:active {
+    border-radius: 50%;
+    transition: 0.1s;
+} */
