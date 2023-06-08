@@ -1,0 +1,161 @@
+/* styles.css */
+
+/* Reset some default browser styles */
+body, figure, h1, h2, h3, p, ul, li, table, td {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and font styles */
+body {
+  background-color: #f7f7f7;
+  font-family: Arial, sans-serif;
+}
+
+/* Style the header navigation */
+header nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  padding: 10px 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the hero section */
+#hero {
+  background-image: url('hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-content {
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Style the about section */
+#about {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Style the speakers section */
+#speakers {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+.speaker {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.speaker img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.speaker h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.speaker p {
+  font-size: 16px;
+}
+
+/* Style the schedule section */
+#schedule {
+  background-color: #fff;
+  padding: 40px 0;
+}
+
+table {
+  width: 80%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  font-weight: bold;
+}
+
+/* Style the contact section */
+#contact {
+  background-color: #f7f7f7;
+  padding: 40px 0;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #333;
+}
