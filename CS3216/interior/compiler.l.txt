@@ -1,0 +1,28 @@
+%{
+
+#include<stdio.h>
+%}
+%start S
+%token id INT INUM
+%%
+S:S DL {printf("Declaration accept \n");}
+ |DL {printf("declaration accepet\n ");}
+ ;
+
+DL:INTV ';'
+  ;
+IV :I
+   |IV ',' id
+   |IV ',' id '=' INUM
+   |id '=' INUM
+I:id 
+ ;
+%%
+void main(){
+yyparse();
+}
+
+int yyerror(char *msg)
+{
+printf("%s\n",msg);
+}
