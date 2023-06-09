@@ -1,0 +1,89 @@
+hr{
+    width: 20%;
+}
+body{
+    margin: 0;
+    background-image: url(images/background-images/image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+.base-container{
+    position: absolute;
+    margin: 0;
+}
+
+.bg-image{
+    position: absolute;
+    width: 68.3rem;
+
+}
+.login-box{
+    position: absolute;
+    right: 15%;
+    bottom: 6.25rem;
+    height: 25rem;
+    width: 25rem;
+    color: white;
+    
+}
+.border-box{
+    position: absolute;
+    right: 16.5%;
+    bottom: 6.25rem;
+    height: 25rem;
+    width: 21.875rem;
+    color: #d8d9c9  ;
+    border-radius: 1.875rem; 
+    border-style: solid;
+    /* border-left: none;
+    border-right: none; */
+    /* width: 70%; */
+}
+.login-here{
+    padding-top: 2.5rem;
+    text-align: center;
+}
+label{
+    display: block;
+    text-align: center;
+}
+.email{
+    margin: 0.625rem auto;
+    text-align: center;
+    display: block;
+}
+.password{
+    margin: 0.625rem auto;
+    text-align: center;
+    display: block;
+}
+.btn{
+    position: relative;
+    -webkit-border-radius: 4;
+    -moz-border-radius: 4;
+    border-radius: 0.25rem;
+    font-family: Arial;
+    color: #eeedff;
+    font-size: 0.938rem;
+    background: #2C74B3;
+    padding: 0.438rem 0.938rem 0.438rem 0.938rem;
+    text-decoration: none;
+    left: 40%;
+    margin-top: 0.75rem;
+  }
+  
+.btn:hover {
+    background: white;
+    color: black;
+    text-decoration: none;
+  }
+  .rem-checkbox {
+    padding-top: 1rem;
+    margin-top: 0.938;
+    display: inline-block;
+    position: relative;
+    left: 34%;
+  }
+

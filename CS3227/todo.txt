@@ -1,0 +1,9 @@
+to do list for the site.
+< ? > yet to do
+< ! > done 
+< # > partially done
+
+list:-
+
+
+1. add action to html form        < ? >
